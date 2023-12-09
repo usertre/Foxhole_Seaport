@@ -1,8 +1,9 @@
-#ifndef GUN_H
-#define GUN_H
 #include <Number.h>
 
-char Guns_Name[GUNS_NUMBER][50] = {
+#ifndef GUN_H
+#define GUN_H
+
+const char Guns_Name[GUNS_NUMBER+1][50] = {"\0",
 	"\"Dusk\" ce.III",
 	"Booker 风暴步枪 Model 838",
 	"Aalto 风暴步枪 24",
